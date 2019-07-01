@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>weather app</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>Weather in your city!
+        <div class="search">
+          <input type="text" placeholder="Enter City Name" id="search">  
+          <a id="search-btn" href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+        </div>
+    </header>
+        <div class="main">
+            <div class="city-icon">
+                <div id="city-name"></div>
+                    <img src="" alt="" id="icon">
+                </div>
+        </div>
+    </div>
+    <div class="temperature">
+            <div id="temp"></div>
+          </div>
+          
+          <div class="humidity">
+            <div id="humidity-div"></div>
+          </div>
+          
+        </main>
+    </div>
+
+    
+    <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+    <script src="weather.js"></script> 
+</body>
+</html>
