@@ -1,0 +1,20 @@
+body {
+    background-image: url('https://4.bp.blogspot.com/-B4eAmt4k3GA/WBTFXkQPVVI/AAAAAAAANWs/uE634GYJLV0bK8RjvBtND1tvj4DTJ4swgCLcB/s400/weather%2Bphenomena%2Bgif.gif');
+    background-size:cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+header {
+    background-color: gainsboro;
+    opacity: 0.5;
+    position: fixed; 
+    top: 30%;
+    left: 40%;
+}
+
+p{
+    color: blue;
+}
