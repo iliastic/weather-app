@@ -1,13 +1,16 @@
-const key='d7ee636e32ea15c1e10edd173dfc9e91';
+const key='e9a2a366f60242dd2238a9c477ce36d3';
 let input=document.getElementById('search');
 let button=document.getElementById('search-btn');
 
 button.addEventListener('click',() => {
 let city= input.value;
+});
 
+$.getJSON("http://api.openweathermap.org/data/2.5/forecast?q=Antwerpen&units=%20metric&appid=e9a2a366f60242dd2238a9c477ce36d3",(data) =>{
+console.log(data);   
 });
 
 
 
 
-// /api.openweathermap.org/data/2.5/forecast?q={city name},{country code} 
+// http://api.openweathermap.org/data/2.5/forecast?q=Antwerpen&units=%20metric&appid=e9a2a366f60242dd2238a9c477ce36d3 

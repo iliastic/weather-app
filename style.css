@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: gainsboro;
+    background-image: linear-gradient(red,orange,yellow,lightyellow);
     opacity: 0.5;
     position: fixed; 
     top: 30%;
@@ -16,5 +16,5 @@ header {
 }
 
 p{
-    color: blue;
+    color: whitesmoke;
 }
