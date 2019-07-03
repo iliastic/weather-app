@@ -12,6 +12,18 @@ body {
     height:100%;
     width:100%;
 }
+
+header {
+    background-image: radial-gradient(#1E1D22, #39454C, #2A4A45,#674B4F, #6EB670, #32732B);
+    opacity: 0.75;
+    width: 40%;
+    height:15%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 15pt;
+}   
+
 .con2{
     margin: auto;
     display: flex;
@@ -20,28 +32,54 @@ body {
     height: 90%;
     border: 20pt;
     border-color: whitesmoke;
-    padding: 0 10px;
-}
-
-header {
-    background-image: linear-gradient(red,orange,yellow,lightyellow);
-    opacity: 0.5;
-    position: fixed; 
-    top: 0%;
-    left: 40%;
+    padding: 10px;
 }
 
 .card{
     background-image: url('https://img.freepik.com/free-vector/vector-carbon-kevlar-texture_31825-335.jpg?size=626&ext=jpg');
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
     text-align: center;
     border: solid gray 2px;
-    top: 25%;
-    height: 40%;
+    height: 60%;
     width: 20%;
     margin: 2%;
+    opacity: 0.8;
 }
 
 p{
-    color: whitesmoke;
+    color: lightskyblue;
+}
+
+.icon{
+    height: 50%;
+    width:  80%;
+    margin:5px auto 5px auto; 
+}
+
+button{
+    border: none;
+    box-shadow: none;
+    background: none;
+    margin-right: 5px;
+}
+
+.fa-search{
+    color: aquamarine;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+
+}
+
+.search{
+    width: 50%; 
+    height: 30% ;
+    margin: auto;
+    opacity: 0.9;
+}
+
+#search{
+    height: 100%;
+    width: 80%;
+    margin: auto;
 }
