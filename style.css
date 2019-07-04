@@ -43,7 +43,8 @@ header {
     height: 60%;
     width: 20%;
     margin: 2%;
-    opacity: 0.8;
+    opacity: 0.7;
+    align-content: auto;
 }
 
 p{
@@ -82,4 +83,19 @@ button{
     height: 100%;
     width: 80%;
     margin: auto;
+}
+
+.temp{
+    color: navajowhite;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 15pt;
+}
+
+.humidity{
+    color: navajowhite;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 15pt;
+    display: flex;
 }
